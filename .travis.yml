@@ -15,5 +15,4 @@ before_script:
     - phpenv rehash
     - composer install
 
-script:
-  - ./phpunit --ExchangeProviderTest.php
+script: phpunit ExchangeProviderTest.php
