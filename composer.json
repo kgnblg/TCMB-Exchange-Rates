@@ -1,5 +1,5 @@
 {
-  "name": "kgnblg/TCMB-Exchange-Rates",
+  "name": "kgnblg/tcmb-exchange-rates",
   "type": "library",
   "description": "TCMB XML API Exchange Rate Provider",
   "minimum-stability": "dev",
