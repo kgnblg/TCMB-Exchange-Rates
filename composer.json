@@ -1,5 +1,29 @@
 {
-    "require-dev": {
+  "name": "kgnblg/TCMB-Exchange-Rates",
+  "type": "library",
+  "description": "TCMB XML API Exchange Rate Provider",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "keywords": [
+    "tcmb",
+    "exchange",
+    "kur",
+	"doviz",
+	"merkezbankası",
+    "currency"
+  ],
+  "homepage": "https://kaganbalga.com",
+  "authors": [
+    {
+      "name": "Kagan Balga",
+      "email": "kgnblg@gmail.com",
+      "homepage": "http://www.kaganbalga.com"
+    }
+  ],
+  "require": {
+        "php": "^5.4.* || ^7.0"
+    },
+  "require-dev": {
         "phpunit/phpunit": "6.1"
     }
 }
