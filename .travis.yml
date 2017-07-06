@@ -11,7 +11,7 @@ php:
     - 7.0
     - hhvm
 	
-	before_script:
+before_script:
     - phpenv rehash
     - composer install
 
