@@ -12,3 +12,6 @@ before_script:
     - composer install
 
 script: phpunit ExchangeProviderTest.php
+
+after_success:
+  - travis_retry php vendor/bin/coveralls -v

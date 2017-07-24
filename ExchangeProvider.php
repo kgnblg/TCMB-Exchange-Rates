@@ -25,7 +25,7 @@ define("CNY", 16);
 define("PKR", 17);
 
   class ExchangeProvider {
-    protected $file;
+    public $file;
 
     public function __construct(){
       $this->file = simplexml_load_file("http://www.tcmb.gov.tr/kurlar/today.xml");
