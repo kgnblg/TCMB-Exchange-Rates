@@ -13,7 +13,7 @@ before_script:
 
 script:
     - mkdir -p build/logs
-    - phpunit -c app/ src/ --coverage-clover build/logs/clover.xml
+    - phpunit --coverage-clover build/logs/clover.xml
 
 after_success:
     - bin/coveralls -v
