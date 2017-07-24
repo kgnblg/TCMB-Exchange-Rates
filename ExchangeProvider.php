@@ -24,7 +24,6 @@ define("IRR", 15);
 define("CNY", 16);
 define("PKR", 17);
 
-
   class ExchangeProvider {
     public $file;
 
