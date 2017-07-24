@@ -16,4 +16,4 @@ script:
     - php vendor/bin/phpunit -c phpunit.xml.dist
 
 after_success:
-    - php vendor/bin/coveralls -v
+    - vendor/bin/coveralls -v
