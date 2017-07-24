@@ -11,7 +11,9 @@ before_script:
     - phpenv rehash
     - composer install
 
-script: phpunit ExchangeProviderTest.php
+script: 
+	- phpunit ExchangeProviderTest.php
+	- php vendor/bin/phpunit -c phpunit.xml.dist
 
 after_success:
   - travis_retry php vendor/bin/coveralls
