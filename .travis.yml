@@ -11,8 +11,7 @@ before_script:
     - phpenv rehash
     - composer install
 
-script:
-    - vendor/bin/phpunit --coverage-clover=coverage.xml
+script: phpunit ExchangeProviderTest.php --coverage-clover=coverage.xml
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
