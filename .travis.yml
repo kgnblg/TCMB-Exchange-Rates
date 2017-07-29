@@ -12,8 +12,7 @@ before_script:
     - composer install
 
 script:
-    - mkdir -p build/logs
-    - php vendor/bin/phpunit -c phpunit.xml.dist
+    - vendor/bin/phpunit --coverage-clover=coverage.xml
 
 after_success:
-    - vendor/bin/coveralls -v
+    - bash <(curl -s https://codecov.io/bash)
